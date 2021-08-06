@@ -3,27 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D7B988C26BD8D5E00C3B1DA /* RateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7B988B26BD8D5E00C3B1DA /* RateCell.swift */; };
+		9DBC51B126BBF53100A8B7AB /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 9DBC51B026BBF53100A8B7AB /* NVActivityIndicatorView */; };
+		9DC00E3F26BD47F300A6ED8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DC00E3E26BD47F300A6ED8B /* GoogleService-Info.plist */; };
+		9DC00E4226BD5FC700A6ED8B /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC00E4126BD5FC700A6ED8B /* ViewController+Extension.swift */; };
+		9DC00E4426BD6C5800A6ED8B /* DataManager+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC00E4326BD6C5800A6ED8B /* DataManager+Enum.swift */; };
 		9DCEC32A26BAA72100AB80F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC32926BAA72100AB80F1 /* AppDelegate.swift */; };
 		9DCEC32C26BAA72100AB80F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC32B26BAA72100AB80F1 /* SceneDelegate.swift */; };
-		9DCEC32E26BAA72100AB80F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC32D26BAA72100AB80F1 /* ViewController.swift */; };
-		9DCEC33126BAA72100AB80F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCEC32F26BAA72100AB80F1 /* Main.storyboard */; };
 		9DCEC33326BAA72300AB80F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCEC33226BAA72300AB80F1 /* Assets.xcassets */; };
 		9DCEC33626BAA72300AB80F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCEC33426BAA72300AB80F1 /* LaunchScreen.storyboard */; };
+		9DCEC33E26BAA75200AB80F1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC33D26BAA75200AB80F1 /* SplashViewController.swift */; };
+		9DCEC34026BAA9D600AB80F1 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCEC33F26BAA9D600AB80F1 /* Splash.storyboard */; };
+		9DCEC34226BAABBA00AB80F1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC34126BAABBA00AB80F1 /* HomeViewController.swift */; };
+		9DCEC34426BAABC200AB80F1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCEC34326BAABC200AB80F1 /* Home.storyboard */; };
+		9DCEC34626BAADBC00AB80F1 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC34526BAADBC00AB80F1 /* MovieDetailViewController.swift */; };
+		9DCEC34826BAAE1200AB80F1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC34726BAAE1200AB80F1 /* MovieCell.swift */; };
+		9DCEC34A26BAAE5C00AB80F1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC34926BAAE5C00AB80F1 /* Movie.swift */; };
+		9DCEC35A26BAB9F700AB80F1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCEC35926BAB9F700AB80F1 /* FirebaseAnalytics */; };
+		9DCEC35C26BAB9F700AB80F1 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCEC35B26BAB9F700AB80F1 /* FirebaseMessaging */; };
+		9DCEC36326BAD30100AB80F1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9DCEC36226BAD30100AB80F1 /* Kingfisher */; };
+		9DCEC36526BAD45000AB80F1 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCEC36426BAD45000AB80F1 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D7B988B26BD8D5E00C3B1DA /* RateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCell.swift; sourceTree = "<group>"; };
+		9DC00E3E26BD47F300A6ED8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9DC00E4126BD5FC700A6ED8B /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		9DC00E4326BD6C5800A6ED8B /* DataManager+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataManager+Enum.swift"; sourceTree = "<group>"; };
 		9DCEC32626BAA72100AB80F1 /* Pinsoft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinsoft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCEC32926BAA72100AB80F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DCEC32B26BAA72100AB80F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9DCEC32D26BAA72100AB80F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9DCEC33026BAA72100AB80F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DCEC33226BAA72300AB80F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCEC33526BAA72300AB80F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DCEC33726BAA72300AB80F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCEC33D26BAA75200AB80F1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		9DCEC33F26BAA9D600AB80F1 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
+		9DCEC34126BAABBA00AB80F1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9DCEC34326BAABC200AB80F1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		9DCEC34526BAADBC00AB80F1 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		9DCEC34726BAAE1200AB80F1 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		9DCEC34926BAAE5C00AB80F1 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9DCEC35D26BABD1500AB80F1 /* Pinsoft.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pinsoft.entitlements; sourceTree = "<group>"; };
+		9DCEC36426BAD45000AB80F1 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +56,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCEC36326BAD30100AB80F1 /* Kingfisher in Frameworks */,
+				9DBC51B126BBF53100A8B7AB /* NVActivityIndicatorView in Frameworks */,
+				9DCEC35C26BAB9F700AB80F1 /* FirebaseMessaging in Frameworks */,
+				9DCEC35A26BAB9F700AB80F1 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9DC00E4026BD5FB600A6ED8B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DC00E4126BD5FC700A6ED8B /* ViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		9DCEC31D26BAA72100AB80F1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +93,58 @@
 		9DCEC32826BAA72100AB80F1 /* Pinsoft */ = {
 			isa = PBXGroup;
 			children = (
-				9DCEC32926BAA72100AB80F1 /* AppDelegate.swift */,
-				9DCEC32B26BAA72100AB80F1 /* SceneDelegate.swift */,
-				9DCEC32D26BAA72100AB80F1 /* ViewController.swift */,
-				9DCEC32F26BAA72100AB80F1 /* Main.storyboard */,
-				9DCEC33226BAA72300AB80F1 /* Assets.xcassets */,
-				9DCEC33426BAA72300AB80F1 /* LaunchScreen.storyboard */,
-				9DCEC33726BAA72300AB80F1 /* Info.plist */,
+				9DC00E4026BD5FB600A6ED8B /* Extensions */,
+				9DCEC35D26BABD1500AB80F1 /* Pinsoft.entitlements */,
+				9DCEC34E26BAAEE900AB80F1 /* Utilities */,
+				9DCEC34D26BAAED600AB80F1 /* Modals */,
+				9DCEC34C26BAAEC800AB80F1 /* Views */,
+				9DCEC34B26BAAEBF00AB80F1 /* ViewControllers */,
 			);
 			path = Pinsoft;
+			sourceTree = "<group>";
+		};
+		9DCEC34B26BAAEBF00AB80F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DCEC34126BAABBA00AB80F1 /* HomeViewController.swift */,
+				9DCEC33D26BAA75200AB80F1 /* SplashViewController.swift */,
+				9DCEC34526BAADBC00AB80F1 /* MovieDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9DCEC34C26BAAEC800AB80F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DCEC33426BAA72300AB80F1 /* LaunchScreen.storyboard */,
+				9DCEC33F26BAA9D600AB80F1 /* Splash.storyboard */,
+				9DCEC34326BAABC200AB80F1 /* Home.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DCEC34D26BAAED600AB80F1 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				9DCEC34726BAAE1200AB80F1 /* MovieCell.swift */,
+				9D7B988B26BD8D5E00C3B1DA /* RateCell.swift */,
+				9DCEC34926BAAE5C00AB80F1 /* Movie.swift */,
+				9DCEC36426BAD45000AB80F1 /* DataManager.swift */,
+				9DC00E4326BD6C5800A6ED8B /* DataManager+Enum.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		9DCEC34E26BAAEE900AB80F1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9DC00E3E26BD47F300A6ED8B /* GoogleService-Info.plist */,
+				9DCEC33726BAA72300AB80F1 /* Info.plist */,
+				9DCEC33226BAA72300AB80F1 /* Assets.xcassets */,
+				9DCEC32926BAA72100AB80F1 /* AppDelegate.swift */,
+				9DCEC32B26BAA72100AB80F1 /* SceneDelegate.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +163,12 @@
 			dependencies = (
 			);
 			name = Pinsoft;
+			packageProductDependencies = (
+				9DCEC35926BAB9F700AB80F1 /* FirebaseAnalytics */,
+				9DCEC35B26BAB9F700AB80F1 /* FirebaseMessaging */,
+				9DCEC36226BAD30100AB80F1 /* Kingfisher */,
+				9DBC51B026BBF53100A8B7AB /* NVActivityIndicatorView */,
+			);
 			productName = Pinsoft;
 			productReference = 9DCEC32626BAA72100AB80F1 /* Pinsoft.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +196,11 @@
 				Base,
 			);
 			mainGroup = 9DCEC31D26BAA72100AB80F1;
+			packageReferences = (
+				9DCEC35826BAB9F700AB80F1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				9DCEC36126BAD30100AB80F1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				9DBC51AF26BBF53100A8B7AB /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
 			productRefGroup = 9DCEC32726BAA72100AB80F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +217,9 @@
 			files = (
 				9DCEC33626BAA72300AB80F1 /* LaunchScreen.storyboard in Resources */,
 				9DCEC33326BAA72300AB80F1 /* Assets.xcassets in Resources */,
-				9DCEC33126BAA72100AB80F1 /* Main.storyboard in Resources */,
+				9DCEC34026BAA9D600AB80F1 /* Splash.storyboard in Resources */,
+				9DCEC34426BAABC200AB80F1 /* Home.storyboard in Resources */,
+				9DC00E3F26BD47F300A6ED8B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +230,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DCEC32E26BAA72100AB80F1 /* ViewController.swift in Sources */,
+				9DCEC34A26BAAE5C00AB80F1 /* Movie.swift in Sources */,
+				9DCEC36526BAD45000AB80F1 /* DataManager.swift in Sources */,
 				9DCEC32A26BAA72100AB80F1 /* AppDelegate.swift in Sources */,
+				9DCEC34626BAADBC00AB80F1 /* MovieDetailViewController.swift in Sources */,
+				9DC00E4426BD6C5800A6ED8B /* DataManager+Enum.swift in Sources */,
+				9DCEC34826BAAE1200AB80F1 /* MovieCell.swift in Sources */,
+				9DC00E4226BD5FC700A6ED8B /* ViewController+Extension.swift in Sources */,
+				9D7B988C26BD8D5E00C3B1DA /* RateCell.swift in Sources */,
 				9DCEC32C26BAA72100AB80F1 /* SceneDelegate.swift in Sources */,
+				9DCEC33E26BAA75200AB80F1 /* SplashViewController.swift in Sources */,
+				9DCEC34226BAABBA00AB80F1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9DCEC32F26BAA72100AB80F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9DCEC33026BAA72100AB80F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9DCEC33426BAA72300AB80F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,6 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Utilities/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -271,6 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Utilities/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -286,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pinsoft/Pinsoft.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RKA7R98LN8;
 				INFOPLIST_FILE = Pinsoft/Info.plist;
@@ -293,6 +389,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.egesucu.Pinsoft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -305,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pinsoft/Pinsoft.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RKA7R98LN8;
 				INFOPLIST_FILE = Pinsoft/Info.plist;
@@ -312,6 +410,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.egesucu.Pinsoft;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -341,6 +440,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DBC51AF26BBF53100A8B7AB /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		9DCEC35826BAB9F700AB80F1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.5.0;
+			};
+		};
+		9DCEC36126BAD30100AB80F1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DBC51B026BBF53100A8B7AB /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DBC51AF26BBF53100A8B7AB /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		9DCEC35926BAB9F700AB80F1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DCEC35826BAB9F700AB80F1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		9DCEC35B26BAB9F700AB80F1 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DCEC35826BAB9F700AB80F1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		9DCEC36226BAD30100AB80F1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DCEC36126BAD30100AB80F1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DCEC31E26BAA72100AB80F1 /* Project object */;
 }
